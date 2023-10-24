@@ -1,0 +1,22 @@
+.a1 {
+    font-family: "Open Sans", Arial, serif;
+}
+.a2 {
+    text-decoration: line-through;
+}
+.a3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.a4 {
+    word-spacing: 30px;
+    color: #731e88;
+    text-shadow: 1px 1px 2px #f095a4;
+    text-decoration-line: wavy;
+}
+.a5 {
+    text-decoration: double;
+    letter-spacing: 5px;
+    
+    
+}
