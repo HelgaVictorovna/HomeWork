@@ -1,0 +1,33 @@
+body {
+    background: #262628;
+}
+
+.text {
+    color: #ffffff;
+}
+.wrapper {
+    padding: 100px 15px;
+    height: 100vh;
+}
+
+.rectangular {
+    background: #bfbaba;
+    border-radius: 15px;
+    height: 100px;
+    width: 500px;
+    position: fixed;
+    bottom: 100px;
+    left: 50%;
+    right: 50px;
+}
+
+.round {
+    background: #ae1010;
+    height: 100px;
+    width: 100px;
+    right: 350px;
+    bottom: 150px;   
+    border-radius: 50px;
+    z-index: 1;
+    position: fixed;
+}
