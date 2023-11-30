@@ -1,0 +1,36 @@
+body {
+    background: #3e3e3f;
+    padding-top: 5vh;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+.title {
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+.title::before,
+.title::after {
+    content:"";
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.title::before {
+    background: #c04e63;
+    left: -50px;
+
+}
+.title::after {
+    background: #524ec0;
+    right: -50px;
+}
